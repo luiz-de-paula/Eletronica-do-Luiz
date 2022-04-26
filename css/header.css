@@ -1,0 +1,52 @@
+html{
+  padding: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+
+}
+
+.title{
+  padding: 1em;
+  margin: 1em;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title nav{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.title nav img{
+  padding-right: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+}
+.title h1{
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.menu ul{
+  list-style: none;
+  padding: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+
+}
+  .menu li a{
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+  .menu li a:hover{
+    background-color: blanchedalmond;
+    color: #0000ff;
+    border-bottom: 2px solid #111;
+  }
